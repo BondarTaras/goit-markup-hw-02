@@ -1,0 +1,231 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+/*------------- HEADER------------------------*/
+.header {
+  background-color: #ffffff;
+}
+.heder-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+.header-part-logo {
+  color: #4d5ae5;
+}
+.header-navigation {
+}
+.header-link {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #434455;
+}
+.header-link:active {
+  color: #4d5ae5;
+}
+.header-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: #4d5ae5;
+}
+
+.header-mail {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-mail:hover,
+.header-mail:focus {
+  color: #4d5ae5;
+}
+/*------------- HERO------------------------*/
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.hero-btn:active {
+  background-color: #404bbf;
+}
+/*------------- BENEFITS------------------------*/
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.benefits-after-title {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/*------------- EXAMPLES------------------------*/
+.examples {
+}
+.examples-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.examples-list {
+}
+.examples-item {
+}
+/*------------- TEAM------------------------*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-list {
+  background-color: #fff;
+}
+.team-item {
+  text-align: center;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.team-after-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/*------------- FOOTER------------------------*/
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-part-logo {
+  color: #4d5ae5;
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/*------------- PORTFOLIO------------------------*/
+.portfolio {
+}
+.filters-list {
+}
+.filters-item {
+}
+.filters-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.filters-btn:hover,
+.filters-btn:focus {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.filters-btn:active {
+  background-color: #404bbf;
+}
+.services-list {
+}
+.services-item {
+}
+.services-title {
+}
+.services-pre-title {
+}
