@@ -29,6 +29,7 @@
 }
 .body {
   font-family: "Roboto", sans-serif;
+  color: var(--color-text);
 }
 /*------------- HEADER------------------------*/
 .header {
@@ -124,7 +125,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text);
 }
 /*------------- EXAMPLES------------------------*/
 .examples-title {
@@ -168,7 +168,6 @@
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--color-text);
 }
 /*------------- FOOTER------------------------*/
 .footer {
@@ -228,5 +227,4 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-text);
 }
