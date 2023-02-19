@@ -27,9 +27,11 @@
 .link {
   text-decoration: none;
 }
-.body {
+body {
   font-family: "Roboto", sans-serif;
   color: var(--color-text);
+  font-size: 16px;
+  line-height: 1.5;
 }
 /*------------- HEADER------------------------*/
 .header {
@@ -122,8 +124,6 @@
   color: var(--color-titel);
 }
 .benefits-after-title {
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /*------------- EXAMPLES------------------------*/
@@ -164,8 +164,6 @@
   color: var(--color-titel);
 }
 .team-after-subtitle {
-  font-size: 16px;
-  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
 }
@@ -188,8 +186,6 @@
   color: var(--color-primary);
 }
 .footer-text {
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
 }
@@ -224,7 +220,5 @@
   color: var(--color-titel);
 }
 .services-pre-title {
-  font-size: 16px;
-  line-height: 1.5;
   letter-spacing: 0.02em;
 }
